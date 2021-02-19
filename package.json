@@ -1,0 +1,40 @@
+{
+  "name": "lunar-calendar-ts-vi",
+  "version": "1.0.0",
+  "description": "Lunar is a calendar library for Solar and Vietnamese language.",
+  "main": "./dist/lib/index.js",
+  "types": "./dist/lib/index.d.ts",
+  "scripts": {
+    "clean": "rimraf ./dist",
+    "build": "npm run clean && tsc",
+    "test": "npm run build && ./node_modules/.bin/jasmine --config=jasmine.json",
+    "release": "npm run test && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuanquynh0508/lunar-calendar-ts-vi.git"
+  },
+  "keywords": [
+    "calendar",
+    "lunar",
+    "solar",
+    "Âm lịch",
+    "Lịch mặt trăng"
+  ],
+  "author": "Nguyen Nhu Tuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuanquynh0508/lunar-calendar-ts-vi/issues"
+  },
+  "homepage": "https://github.com/tuanquynh0508/lunar-calendar-ts-vi",
+  "devDependencies": {
+    "@types/jasmine": "^3.6.3",
+    "jasmine": "^3.6.4",
+    "jasmine-spec-reporter": "^6.0.0",
+    "jasmine-ts": "^0.3.0",
+    "rimraf": "^3.0.2",
+    "tslint": "~6.1.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {}
+}
