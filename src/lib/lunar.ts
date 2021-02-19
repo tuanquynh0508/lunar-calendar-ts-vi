@@ -40,8 +40,8 @@ export class Lunar {
         blockLunarDate.solarDay = (lunarDate.jd + 1) % 7;
         blockLunarDate.solarDayStr = TUAN[blockLunarDate.solarDay];
         blockLunarDate.solarDate = d.getDate();
-        blockLunarDate.solarMonth = d.getMonth();
-        blockLunarDate.solarYear = d.getFullYear();
+        blockLunarDate.solarMonth = d.getMonth()+1;
+        blockLunarDate.solarYear = d.getFullYear()
         // Lunar
         blockLunarDate.lunarDate = lunarDate.day;
         blockLunarDate.lunarMonth = lunarDate.month;

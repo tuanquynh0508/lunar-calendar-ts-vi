@@ -9,6 +9,23 @@ Lunar Calendar Typescript Library for Vietnamese
 npm i lunar-calendar-ts-vi
 ```
 
+## Fix CommonJS or AMD dependencies
+Add lunar-calendar-ts-vi to "architect" > "build" > "options" > "allowedCommonJsDependencies"
+```
+"architect": {
+    "build": {
+      ...
+      "options": {
+        ...
+        "allowedCommonJsDependencies": [
+          "lunar-calendar-ts-vi"
+        ]
+      },
+      ...
+  }
+}
+```
+
 ## Usage
 ### Basic
 ```
