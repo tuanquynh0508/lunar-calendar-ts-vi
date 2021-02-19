@@ -1,10 +1,10 @@
 /*
  * @author: Nguyen Nhu Tuan <tuanquynh0508@gmail.com>
- * Base on Library (c) 2004 Ho Ngoc Duc [http://come.to/duc].
+ * Base on Library (c) 2004 Ho Ngoc Duc [https://www.informatik.uni-leipzig.de/~duc/].
  */
 
 import { Util } from "./util";
-import {BlockLunarDate, LunarDate} from "./lunar-date";
+import { BlockLunarDate, LunarDate } from "./lunar-date";
 import { CAN, CHI, GIO_HD, PI, TIETKHI, TK19, TK20, TK21, TK22, TUAN } from "./constants";
 
 export class Lunar {
